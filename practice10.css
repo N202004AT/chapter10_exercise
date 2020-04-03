@@ -55,3 +55,20 @@ main{
 	background-color: red;
 	color:white;
 }
+
+@media screen and (max-width:768px){
+	main{
+		margin:50px auto;
+		width:90%;
+	}
+
+	.box{
+		float:none;
+		margin-bottom:20px;
+		width:90%;
+	}
+
+	.box:last-child{
+		margin-bottom:0;
+	}
+}
