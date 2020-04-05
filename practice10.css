@@ -16,7 +16,7 @@ main{
 
 .box{
 	float:left;
-	width:280px;
+	width:300px;
 	padding:10px;
 	border :1px solid red;
 	margin-right:30px;
@@ -58,17 +58,19 @@ main{
 
 @media screen and (max-width:768px){
 	main{
+		width:100%;
 		margin:50px auto;
-		width: 90%;
+		padding:0 5%;
 	}
 
 	.box{
 		float:none;
+		width:100%;
 		margin-bottom:20px;
-		width:90%;
+		margin-right:0px;
 	}
 
 	.box:last-child{
-		margin-bottom:0;
+		margin-bottom:0px;
 	}
 }
